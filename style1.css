@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*    background-color: firebrick;*/
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.custom-width {
+    max-width: 23.9%;
+    height: 240px;
+    overflow: hidden;
+    padding: 0;
+
+    background-image: url(../mission.jpg);
+    background-size: 100% 100%;
+}
+
+.custom-width img {
+    width: 100%;
+    height: 82%;
+    transition: all 0.3s ease-in-out;
+}
+
+.text {
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    height: 100px;
+    background-color: rgba(0, 0, 20, 0.5);
+    /*    background-color: rgba(0,0,20,0.5z        );*/
+    /*    left: 22%;*/
+}
+
+.custom-width:hover .text {
+    transform: translateY(-50px);
+
+}
+
+.custom-width:hover {
+    box-shadow: 2px 2px 6px 2px grey;
+}
+
+.custom-width:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.block1 {
+    width: 30px;
+    height: 3px;
+    background-color: #CF7401;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+    display: inline-block;
+    background-color: #CF7401;
+}
+
+.Dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    display: inline-block;
+    background-color: #CF7401;
+}
+
+h1 {
+    text-align: center;
+    /*    padding: 3% 0%;*/
+    color: #0099CB;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.1s;
+    display: inline;
+    margin: 0px 20px;
+    font-size: 30px;
+    word-spacing: 2px;
+}
+
+h1 span {
+    color: #020202;
+}
+
+h1:hover {
+    color: #020202;
+}
+
+h1:hover > .chucks {
+    color: #0099CB!important;
+}
