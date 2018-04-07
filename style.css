@@ -9,7 +9,8 @@
 *:target {
     outline: none;
 }
-*{
+
+* {
     outline: none;
 }
 
@@ -54,7 +55,7 @@
     position: absolute;
     bottom: -15%;
     left: 38%;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.3s ease-in-out;
     border-radius: 0;
     width: 120px;
     height: 45px;
@@ -71,14 +72,22 @@
     top: -16%;
 }
 
-.custom-div:hover button{
-    bottom: 30%;
-    left: 38%;
-    transition-delay: 0.2s;
+.custom-div:hover .six_c {
+    top: -15%;
 }
 
-.custom-div:hover .custom-text {
-    opacity: 0;
+.custom-div:hover .fifth_c {
+    top: -15%;
+}
+
+.custom-div:hover .fourth_c {
+    top: -21%;
+
+}
+
+.custom-div:hover button {
+    bottom: 30%;
+    left: 38%;
 }
 
 .custom-btn:hover {
@@ -96,64 +105,172 @@
 }
 
 @media only screen and (min-width:992px) and (max-width:1200px) {
-    .custom-text{
+    .custom-text {
         margin-left: 0px;
     }
-    .mgc{
-        font-size: 20px;    
+    .mgc {
+        font-size: 20px;
     }
-    .adc{
-        font-size: 17px;    
+    .adc {
+        font-size: 17px;
     }
-    .content{
+    .content {
         margin-left: 0px;
         width: 90%;
     }
-    .custom-btn{
+    .custom-btn {
         left: 30%;
     }
-    .custom-div:hover button{
+    .custom-div:hover button {
         left: 30%;
     }
-    .content h2{
+    .content h2 {
         font-size: 20px;
     }
 }
 
-@media only screen and (min-width:768px) and (max-width:991px){
-   
-    .custom-text{
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+    .custom-text {
         margin-left: 0px;
     }
-    .content{
+    .content {
         margin-left: 0px;
         width: 92%;
     }
-    .adc{
+    .adc {
         font-size: 19px;
     }
 }
 
-@media only screen and (min-width:300px) and (max-width:767px){
-    .content{
+@media only screen and (min-width:300px) and (max-width:767px) {
+    .content {
         margin-left: 0px;
-        width: 95%;
+        width: 92.5%;
     }
-    .custom-div:hover .content{
+    .custom-div {
+        max-width: 75%;
+        margin: 0 auto;
+    }
+    .custom-div:hover .content {
         top: -12%;
     }
-    .custom-text{
+    .custom-text {
         margin-left: 0;
     }
-    .custom-div img{
+    .custom-div img {
         width: 100%;
     }
+    .first_c h2 {
+        margin: 0 auto;
+        left: 4%;
+    }
+    .second_c h2 {
+        left: 5%;
+    }
+
 }
-@media only screen and (min-width:300px) and (max-width:360px){
-    .content h2{
+
+@media only screen and (min-width:300px) and (max-width:580px) {
+    .custom-div {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+    .custom-btn {
+        left: 38%;
+        bottom: -25%;
+    }
+    .custom-text {
+        font-size: 16px;
+    }
+    .adc {
+        font-size: 12px;
+        padding: 0;
+    }
+    .content h2 {
+        font-size: 22px;
+    }
+    .content {
+        width: 91%;
+        /*        top: -16%;*/
+    }
+    .custom-div:hover .content {
+        top: -16%;
+    }
+    .custom-div:hover .first_c {
+        top: -12%;        
+    }
+    .custom-btn {
+        width: 90px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+
+}
+
+@media only screen and (min-width:300px) and (max-width:480px) {
+    .content h2 {
         font-size: 20px;
     }
-    .custom-div h2{
+
+    .ssc,
+    .mgc,
+    .adc,
+    .ldc,
+    .hdc,
+    .bbc {
+        font-size: 16px!important;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:443px){
+    .content{
+        width: 90.4%;
+    }
+    
+    .adc{
+        font-size: 12px!important;
+    }
+}
+/*
+@media only screen and (min-width:300px) and (max-width:350px){
+    
+}
+*/
+@media only screen and (min-width:300px) and (max-width:360px) {
+    .content h2 {
+        font-size: 10px;
+    }
+    .custom-div h2 {
         text-align: center;
+        font-size: 18px;
+    }
+    .custom-btn {
+        width: 70px;
+        height: 20px;
+        font-size: 8px;
+        /*        bottom: -5%;*/
+    }
+    .content{
+        width: 86%;
+    }
+    .custom-div:hover .first_c{
+        top: -16%!important;
+    }
+    
+    .custom-div:hover .second_c{
+        top: -20%;
+    }
+    .custom-div:hover .third_c{
+        top: -23%;
+    }
+    .custom-div:hover .fourth_c{
+        top: -22%;
+    }
+    .custom-div:hover .fifth_c{
+        top: -22%;
+    }
+    .custom-div:hover .six_c{
+        top: -21%;
     }
 }
