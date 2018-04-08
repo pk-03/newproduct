@@ -10,6 +10,146 @@
     <!--<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.css">-->
     <link rel="stylesheet" href="Navbar/navbar.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        .custom-text {
+            font-size: 16px;
+        }
+
+        .mgc {
+            font-size: 14px;
+        }
+
+        .ldc {
+            font-size: 15px;
+        }
+
+        .content h2 {
+            font-size: 20px;
+        }
+
+        .custom-div:hover .content {
+            top: -12%;
+        }
+
+        .custom-div:hover .third_c {
+            top: -18%;
+        }
+
+        .second_c h2 {
+            left: 30%;
+        }
+
+        @media only screen and (min-width:992px) and (max-width:1201px) {
+            .custom-text {
+                font-size: 16px;
+            }
+            .ldc,
+            .mgc {
+                font-size: 13px;
+            }
+
+            .second_c+button {
+                bottom: -20%;
+            }
+            .second_c h2 {
+                /*                display: block;*/
+                /*                margin: 0 auto;*/
+                left: 25%;
+            }
+            .pdc {
+                font-size: 13px;
+            }
+            .fourth_c+button {
+                bottom: -20%;
+
+            }
+        }
+
+
+        @media only screen and (min-width:768px) and (max-width:992px) {
+            .custom-div:hover .third_c {
+                top: -14%;
+            }
+        }
+
+        @media only screen and (min-width:530px) and (max-width:767px){
+            .custom-div:hover .first_c {
+                top: -11%;
+            }
+            .custom-div:hover .third_c {
+                top: -13%;
+            }
+            
+            
+        }
+        @media only screen and (min-width:300px) and (max-width:530px) {
+            .mgc {
+                font-size: 11px;
+            }
+            .ldc,.pdc{
+                font-size: 10px!important;
+            }
+
+            @media only screen and (min-width:300px) and (max-width:504px) {
+                .ssc {
+                    font-size: 18px;
+                }
+            }
+
+
+        }
+
+        @media only screen and (min-width:300px) and (max-width:480px) {
+            .mgc {
+                font-size: 11px!important;
+            }
+
+            .ssc {
+                font-size: 14px!important;
+            }
+            .ldc{
+                font-size: 10px;
+            }
+        }
+
+        @media only screen and (min-width:380px) and (max-width:411px) {
+            .mgc {
+                font-size: 10px!important;
+            }
+            .content h2 {
+                font-size: 16px;
+            }
+        }
+
+        @media only screen and (min-width:300px) and (max-width:380px) {
+            .content h2 {
+                font-size: 14px;
+            }
+            .ssc {
+                font-size: 10px!important;
+            }
+            .mgc {
+                /*                padding-top: 5%;*/
+                vertical-align: bottom!important;
+                font-size: 8px!important;
+            }
+            .ldc,.pdc {
+                font-size: 8px!important;
+            }
+            .content {
+                width: 85%;
+            }
+            .custom-div:hover .second_c{
+                   top: -18%;             
+            }
+            .custom-div:hover .third_c{
+                 top:-22%;    
+            }
+            .custom-div:hover .fourth_c{
+                top: -22%;    
+            }
+        }
+    </style>
     <title>machine vices</title>
 </head>
 
@@ -81,9 +221,13 @@
             </div>
             <div class="position-relative custom-div col-lg-4 col-md-6 col-sm-12 mb-4">
                 <img src="assets/magnatic-product.jpg" alt="..." class="img-thumbnail rounded float-right img-fluid">
-                <h2 class="text-uppercase custom-text mgc p-2">ROTARY PIPE <CUTTER></CUTTER></h2>
+                <h2 class="text-uppercase custom-text mgc p-2">ROTARY PIPE
+                    <CUTTER></CUTTER>
+                </h2>
                 <div class="content second_c position-absolute">
-                    <h2 class="text-uppercase">ROTARY PIPE <CUTTER></CUTTER></h2>
+                    <h2 class="text-uppercase">ROTARY PIPE
+                        <CUTTER></CUTTER>
+                    </h2>
 
                 </div>
                 <button class="btn custom-btn">read more</button>
@@ -91,7 +235,7 @@
             <div class=" position-relative custom-div col-lg-4 col-md-6 col-sm-12 mb-4">
                 <img src="assets/PIPE-THREDING-machines.jpg" alt="..." class="img-thumbnail rounded float-right img-fluid">
                 <h2 class="text-uppercase custom-text ldc p-2">PORTABLE CONDUIT PIPE BENDER WITH VICE</h2>
-                <div class="content fourth_c position-absolute">
+                <div class="content third_c position-absolute">
                     <h2 class="text-uppercase">PORTABLE CONDUIT PIPE BENDER WITH VICE</h2>
 
                 </div>
@@ -99,13 +243,13 @@
             </div>
             <div class=" position-relative custom-div col-lg-4 col-md-6 col-sm-12 mb-4">
                 <img src="assets/PIPE-THREDING-machines.jpg" alt="..." class="img-thumbnail rounded float-right img-fluid">
-                <h2 class="text-uppercase custom-text ldc p-2">PORTABLE ELECTRIC PIPE THREADER (BSP)</h2>
+                <h2 class="text-uppercase custom-text pdc p-2">PORTABLE ELECTRIC PIPE THREADER (BSP)</h2>
                 <div class="content fourth_c position-absolute">
                     <h2 class="text-uppercase">PORTABLE ELECTRIC PIPE THREADER (BSP)</h2>
 
                 </div>
                 <button class="btn custom-btn">read more</button>
-            </div>    
+            </div>
 
         </div>
     </div>
